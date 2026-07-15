@@ -1,51 +1,41 @@
 {
   "personal": {
     "name": "Ali Sanei",
+    "email": "",
+    "linkedin": "",
+    "github": "",
     "english_level": "B2",
     "preferred_work": "Remote",
     "willing_to_relocate": true
   },
 
-  "target_roles": [
-    "Infrastructure Engineer",
-    "DevOps Engineer",
-    "Cloud Engineer",
-    "System Engineer",
-    "Platform Engineer"
-  ],
+  "career": {
+    "target_roles": [
+      "Infrastructure Engineer",
+      "System Administrator",
+      "Cloud Engineer",
+      "DevOps Engineer",
+      "Platform Engineer"
+    ],
 
-  "preferred_regions": [
-    "Europe",
-    "Germany",
-    "Netherlands",
-    "UAE"
-  ],
+    "experience_years": 0
+  },
 
   "skills": {
-    "expert": [
-      "VMware",
-      "Windows Server",
-      "Active Directory",
-      "Hyper-V"
-    ],
+    "expert": [],
+    "advanced": [],
+    "intermediate": [],
+    "learning": []
+  },
 
-    "advanced": [
-      "Linux",
-      "Networking",
-      "Docker"
-    ],
-
-    "intermediate": [
-      "Python",
-      "Bash",
-      "Git"
-    ],
-
-    "learning": [
-      "Terraform",
-      "Azure",
-      "Kubernetes",
-      "Ansible"
+  "preferences": {
+    "minimum_match_score": 85,
+    "remote_only": true,
+    "preferred_regions": [
+      "Europe",
+      "Germany",
+      "Netherlands",
+      "UAE"
     ]
   },
 
