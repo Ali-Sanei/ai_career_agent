@@ -13,6 +13,14 @@ jobs = adapter.fetch_jobs()
 
 logger.info(f"Found {len(jobs)} jobs")
 
+from app.filters.rule_engine import RuleEngine
+
+engine = RuleEngine()
+
+jobs = engine.filter(jobs)
+
+logger.info(f"After filtering: {len(jobs)} jobs")
+
 repo = JobRepository()
 
 saved, skipped = repo.save_many(jobs)
