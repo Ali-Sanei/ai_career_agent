@@ -15,6 +15,8 @@ logger.info(f"Found {len(jobs)} jobs")
 
 repo = JobRepository()
 
-repo.save_many(jobs)
+saved, skipped = repo.save_many(jobs)
 
-logger.info("Jobs saved")
+logger.info(f"Saved: {saved}")
+
+logger.info(f"Skipped: {skipped}")
